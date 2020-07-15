@@ -1,0 +1,59 @@
+@import url(keyframes.css);
+@import url(scaffolding.css);
+@import url(decor.css);
+@import url(header.css);
+@import url(index.css);
+
+
+
+
+
+/* ПОРТФОЛИО */
+.portfolio {
+    padding: 0 15px;
+}
+
+.portfolio__header {
+    display: flex;
+    align-items: center;
+}
+
+.portfolio__header__passport {
+    display: flex;
+    flex-direction: column;
+}
+
+/* 404 */
+.page-not-found__title {
+    margin: 70px 50px;
+    font-size: 144px;
+    font-family: "RetroVille NC", sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.page-not-found__error-code {
+    margin-right: 15px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-family: "RetroVille NC", sans-serif;
+    text-align: right;
+    color: white;
+}
+
+.page-not-found__skull {
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .page-not-found__title {
+        margin: 0 auto 30px;
+        font-size: 32px;
+    }
+    
+    .page-not-found__error-code {
+        margin: 0 15px 30px;
+        font-size: 18px;
+    }
+}
