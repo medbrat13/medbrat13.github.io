@@ -1251,12 +1251,19 @@ pre, code {
 }
 
 .contact-box__box__decor-image {
+    margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
     width: 100px;
     height: 90px;
     background: url("../images/decor/lettter-box.png") no-repeat top;
     background-size: contain;
+}
+
+.contact-box__box__email-address {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .contact-box__box__email-form {
